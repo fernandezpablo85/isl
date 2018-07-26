@@ -24,3 +24,9 @@ RSE is mean RSS and then `sqrt`ed. This is useful to get a value that's not squa
 R2 is the coefficient of determination, meaning how much variance of `y` does `X` explain. Given by `TSS - RSS / TSS`, where `TSS` is the total sum of squares (the variance of the `y`s). Intuitively, if `RSS` is small R2 will be large, meaning that our model explains a lot of the variance in `y`.
 
 ## Difference between prediction interval and confidence interval
+
+## With multiple regression coefficients "variance of all coefficients tends to increase, sometimes dramatically". Why?
+
+## Pennies and # of coins in your pocket as estimation of how much change you have.
+
+## On the multiple regression tv, newspaper and radio examples, is it always safe to assume that the least significant correlated variable is the one with least information?
