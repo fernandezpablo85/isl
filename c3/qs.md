@@ -30,3 +30,11 @@ R2 is the coefficient of determination, meaning how much variance of `y` does `X
 ## Pennies and # of coins in your pocket as estimation of how much change you have.
 
 ## On the multiple regression tv, newspaper and radio examples, is it always safe to assume that the least significant correlated variable is the one with least information?
+
+
+# Resources
+
+## Multicolinearity
+
+Lesson 12 on STAT501, Penn State University
+https://onlinecourses.science.psu.edu/stat501/node/343/
