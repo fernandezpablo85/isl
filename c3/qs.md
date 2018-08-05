@@ -38,3 +38,8 @@ R2 is the coefficient of determination, meaning how much variance of `y` does `X
 
 Lesson 12 on STAT501, Penn State University
 https://onlinecourses.science.psu.edu/stat501/node/343/
+
+
+## Residual plots
+
+https://data.library.virginia.edu/diagnostic-plots/
