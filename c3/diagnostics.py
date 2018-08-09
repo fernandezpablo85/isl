@@ -55,7 +55,8 @@ def _plot_leverage(model, y, ax):
     sd_residuals = preprocessing.scale(residuals)
     leverage = model.get_influence().hat_matrix_diag
     ax.scatter(leverage, sd_residuals, **scatter_kw);
-    ax.set_xlim(0.001, )
+    margin = 0.01
+    ax.set_xlim(min(leverage) - margin, max(leverage) + margin)
     ax.set_title('Residuals vs Leverage')
     ax.set_xlabel('Leverage')
     ax.set_ylabel('Standardized Residuals')
